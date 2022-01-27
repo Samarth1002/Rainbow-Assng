@@ -5,13 +5,17 @@ const UploadSection = () => {
   return (
     <Container className="my-4 py-3">
       <Row className="px-3 py-6 upload-section">
-        <Col md="6">
-          <div className="upload-text-one upload-text">Learn Or Teach From Anywhere</div>
+        <Col md="6" className="upload-sec-col-2">
+          <div className="upload-text-one upload-text">
+            Learn Or Teach From Anywhere
+          </div>
           <div className="upload-text-two upload-text">
             Take live classes, enrichment programmes and much more using Phone
             or Computer
           </div>
-          <div className="upload-text-three upload-text">Get Started Today!</div>
+          <div className="upload-text-three upload-text">
+            Get Started Today!
+          </div>
 
           <Row className="upload-btn">
             <Col className="upload-btn">
@@ -34,7 +38,7 @@ const UploadSection = () => {
             </Col>
           </Row>
         </Col>
-        <Col md="6">
+        <Col md="6" className="upload-sec-col-1">
           <img
             src="Images/laptop.svg"
             width={650}

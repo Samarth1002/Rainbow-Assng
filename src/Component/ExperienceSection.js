@@ -4,7 +4,7 @@ const ExperienceSection = () => {
   return (
     <>
       <Container className="sub-section-div">
-        <Row className="exp-section-media">
+        <Row className="exp-section-media exp-sec-col">
           <Col md="4" className="exp-div seprater exp-section-txt">
             <div className="exp-div-txt">50,0000 Hrs+</div>
             <div className="exp-txt">of Teaching</div>

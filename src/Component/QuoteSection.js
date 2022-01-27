@@ -9,8 +9,8 @@ import {
 } from "react-icons/bs";
 const QuoteSection = () => {
   return (
-    <Container className="my-5 py-4">
-      <Row className="quote-section">
+    <Container className="my-5 py-4 quote-section">
+      <Row className="quote-section quote-section-col">
         <Col md="8">
           <FaQuoteLeft className="quote" />
           <div className="testimonial">Testimonial</div>

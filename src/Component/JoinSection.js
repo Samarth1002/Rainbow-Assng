@@ -24,19 +24,39 @@ const JoinSection = () => {
     <Container>
       <Row className="my-3 py-4">
         <Col sm="6" md="3" className="text-center">
-          <img src="Images/smartkid.jpg" height={167} width={167} />
+          <img
+            src="Images/smartkid.jpg"
+            height={167}
+            width={167}
+            className="upload-img-smart-radius"
+          />
           <div>Find Nurturing</div>
         </Col>
         <Col sm="6" md="3" className="text-center">
-          <img src="Images/flag.png" height={167} width={167} />
+          <img
+            src="Images/flag.png"
+            height={167}
+            width={167}
+            className="upload-img-smart-radius"
+          />
           <div> Find Nurturing</div>
         </Col>
         <Col sm="6" md="3" className="text-center">
-          <img src="Images/randompic.png" height={167} width={167} />
+          <img
+            src="Images/randompic.png"
+            height={167}
+            width={167}
+            className="upload-img-smart-radius"
+          />
           <div>Find Nurturing</div>
         </Col>
         <Col sm="6" md="3" className="text-center">
-          <img src="Images/randompic2.png" height={167} width={167} />
+          <img
+            src="Images/randompic2.png"
+            height={167}
+            width={167}
+            className="upload-img-smart-radius"
+          />
           <div>Find Nurturing</div>
         </Col>
       </Row>

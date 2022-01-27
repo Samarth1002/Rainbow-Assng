@@ -20,7 +20,7 @@ const ContactSection = () => {
   return (
     <Container className="my-5 py-5">
       <Row className="contact-section">
-        <Col md="6" className="text-center contact-sec-1">
+        <Col md="6" className="text-center cnt-section-col-1">
           <img
             src="Images/email.svg"
             height={480}
@@ -28,7 +28,7 @@ const ContactSection = () => {
             className="blog-section-img"
           />
         </Col>
-        <Col md="5">
+        <Col md="5" className="cnt-section-col-2">
           <Form>
             <Row className="form-cnt">
               <Col sm="10" className="bg-white py-3 ">
@@ -69,7 +69,7 @@ const ContactSection = () => {
                   className="form-input-field"
                 />
                 <Row className="my-2">
-                  <Col sm="6" className="bg-white contact-sec-2">
+                  <Col sm="6" className="bg-white">
                     <Label htmlFor="phone" className="bg-white">
                       Phone
                     </Label>
@@ -83,7 +83,7 @@ const ContactSection = () => {
                       placeholder="phone"
                     />
                   </Col>
-                  <Col md="6" className="bg-white">
+                  <Col sm="6" className="bg-white">
                     <Label htmlFor="age" className="bg-white">
                       Age
                     </Label>
