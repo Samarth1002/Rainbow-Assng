@@ -4,8 +4,8 @@ import { Row, Col, Button } from "reactstrap";
 const Jumbotron = () => {
   return (
     <>
-      <Row className="m-0 my-4 py-3">
-        <Col md="5">
+      <Row className="m-0 my-4 py-3 jumbo-section-media">
+        <Col md="5" className="jumbo-section-col-1">
           <div className="jumbo-txt-one">
             Find nurturing and diverse opportunities for children!
           </div>
@@ -20,7 +20,7 @@ const Jumbotron = () => {
             </div>
           </div>
         </Col>
-        <Col md="7">
+        <Col md="7" className="jumbo-section-col-2">
           <img src="Images/children.jpg" className="jumbo-img p-3" />
         </Col>
       </Row>

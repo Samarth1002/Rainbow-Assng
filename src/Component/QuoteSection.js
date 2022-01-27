@@ -10,7 +10,7 @@ import {
 const QuoteSection = () => {
   return (
     <Container className="my-5 py-4">
-      <Row>
+      <Row className="quote-section">
         <Col md="8">
           <FaQuoteLeft className="quote" />
           <div className="testimonial">Testimonial</div>

@@ -19,14 +19,19 @@ const ContactSection = () => {
 
   return (
     <Container className="my-5 py-5">
-      <Row>
-        <Col md="6" className="text-center">
-          <img src="Images/email.svg" height={480} width={555} />
+      <Row className="contact-section">
+        <Col md="6" className="text-center contact-sec-1">
+          <img
+            src="Images/email.svg"
+            height={480}
+            width={555}
+            className="blog-section-img"
+          />
         </Col>
         <Col md="5">
           <Form>
             <Row className="form-cnt">
-              <Col sm="10" className="bg-white py-3">
+              <Col sm="10" className="bg-white py-3 ">
                 <Label htmlFor="name" className="bg-white my-2  ">
                   Name
                 </Label>
@@ -51,7 +56,7 @@ const ContactSection = () => {
                   placeholder="Course"
                   className="form-input-field"
                 />
-                <Label htmlFor="email" className="bg-white my-2" >
+                <Label htmlFor="email" className="bg-white my-2">
                   Email ID
                 </Label>
                 <Input
@@ -64,7 +69,7 @@ const ContactSection = () => {
                   className="form-input-field"
                 />
                 <Row className="my-2">
-                  <Col sm="6" className="bg-white">
+                  <Col sm="6" className="bg-white contact-sec-2">
                     <Label htmlFor="phone" className="bg-white">
                       Phone
                     </Label>
@@ -78,7 +83,7 @@ const ContactSection = () => {
                       placeholder="phone"
                     />
                   </Col>
-                  <Col sm="6" className="bg-white">
+                  <Col md="6" className="bg-white">
                     <Label htmlFor="age" className="bg-white">
                       Age
                     </Label>
