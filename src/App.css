@@ -116,7 +116,9 @@
   background-color: #ab242f;
   color: #fff;
 }
-
+.navbar-nav {
+  gap: 2rem;
+}
 .navbar-toggler {
   display: flex;
   justify-content: flex-end;
@@ -200,7 +202,7 @@
 }
 
 .sub-section-img {
-  border-radius: 50%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   height: 250px;
   width: 250px;
 }
@@ -263,7 +265,6 @@
 .blog-section-gaming {
   width: 100%;
   height: 100%;
-  /* padding: 1rem; */
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-radius: 89% 85% 95% 51% / 100% 34% 87% 100%;
@@ -440,7 +441,9 @@
   text-align: center;
 }
 
-.detail-col-one,.detail-col-two, .detail-col-three {
+.detail-col-one,
+.detail-col-two,
+.detail-col-three {
   text-align: center;
 }
 
@@ -604,6 +607,13 @@
   .upload-text {
     text-align: center;
   }
+  .exp-section-txt {
+    box-shadow: -1px 2px 14px 0px #ab242f;
+    border-radius: 2rem;
+    border: none;
+    padding: 3px;
+    margin: 2rem;
+  }
 }
 
 @media screen and (min-width: 805px) {
@@ -643,6 +653,19 @@
   @media screen and (max-width: 576px) {
     .contact-section {
       padding: 1rem;
+    }
+    .detail-mail-contact {
+      display: flex;
+      justify-content: center;
+    }
+    .jumbo-txt-one {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 400px) {
+    .header-title-div {
+      margin-right: -1rem;
     }
   }
 }
